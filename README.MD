@@ -1,0 +1,2 @@
+# XMRig for Docker
+
