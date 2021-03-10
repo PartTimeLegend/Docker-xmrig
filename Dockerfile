@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:edge
 RUN apk upgrade && apk add git make cmake libstdc++ gcc g++ automake libtool autoconf linux-headers
 RUN git clone https://github.com/xmrig/xmrig 
 WORKDIR xmrig
